@@ -1,13 +1,13 @@
 @import url('https://fonts.google.com/specimen/Outfit');
 
 html {
-    height:100%;
+    height: 100%;
     display: flex;
 }
 body {
     background-color: hsl(212, 45%, 89%);
     font-family: 'Outfit', sans-serif;
-    font-size: 100%;
+    font-size: 15px;
     color: hsl(218, 44%, 22%);
     width: 80%;
     margin: auto;
@@ -23,6 +23,7 @@ body {
     max-width: 250px;
     border-radius: 20px;
     background-color: hsl(0, 0%, 100%);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.15);
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
@@ -30,7 +31,7 @@ body {
 
 @keyframes fadeInAnimation {
     from {
-        transform: translate3d(0,20px,0);
+        transform: translate3d(0,-20px,0);
         opacity: 0%;
     }
 
@@ -38,14 +39,6 @@ body {
         transform: translate3d(0,0,0);
         opacity: 100%;
     }
-}
-
-.qr-box h1 { 
-    font-size: 20px;
-}
-
-.qr-box p { 
-    font-size: 14px; 
 }
 
 .img-holder {
@@ -67,7 +60,18 @@ body {
     transform: scale(1.4);
 }
 
-footer{
+.text-holder {
+    padding: 5px;
+}
+.text-holder h1 { 
+    font-size: 1.2rem;
+}
+
+.text-holder p { 
+    font-size: 0.9rem; 
+}
+
+footer {
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -76,7 +80,7 @@ footer{
 }
 
 .attribution { 
-    font-size: 11px; 
+    font-size: 0.7rem; 
 }
 
 .attribution a { 
