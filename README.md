@@ -23,7 +23,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Links
 
 - Solution URL: [github.com/gelolmdrd/QR-Code-Component](https://github.com/gelolmdrd/QR-Code-Component)
-- Live Site URL: [gelolmdrd.github.io/QR-Code-Component/] (https://gelolmdrd.github.io/QR-Code-Component/)
+- Live Site URL: [gelolmdrd.github.io/QR-Code-Component](https://gelolmdrd.github.io/QR-Code-Component)
 
 ## My process
 
@@ -36,7 +36,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
-In this challenge, the first thing I did in doing this project is to design the web page as close to the design provided. I also modified to html file to divide the sections of the web page using <div>, and also to make it easier to style it in css.
+In this challenge, the first thing I did in doing this project is to design the web page as close to the design provided. I also modified to html file to divide the sections of the web page using <\div\>, and also to make it easier to style it in css.
 
 In addition I learned how to align to center objects of a webpage using flexboxes. I also learned how to add animations to my elements for a more interactive design. 
 
